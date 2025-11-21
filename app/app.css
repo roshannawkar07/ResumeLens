@@ -49,11 +49,11 @@ main {
 
 /* Heading Styles */
 h1 {
-  @apply text-6xl leading-tight tracking-[-2px] font-semibold text-gradient;
+  @apply text-3xl md:text-6xl leading-tight tracking-[-2px] font-semibold text-gradient;
 }
 
 h2 {
-  @apply text-3xl text-text-gray;
+  @apply text-2xl md:text-3xl text-text-gray;
 }
 
 label {

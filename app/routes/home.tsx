@@ -49,7 +49,7 @@ export default function Home() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover transition-all duration-300"
       >
-        <source src="/images/background.mp4" type="video/mp4" />
+        <source src="/images/background2.mp4" type="video/mp4" />
       </video>
 
       {/* Dark Overlay for readability */}
@@ -60,7 +60,7 @@ export default function Home() {
         <Navbar />
 
         <section className="main-section">
-          <div className="page-heading py-16">
+          <div className=" page-heading md:py-16">
             <h1>Resume Lence Smart Resume Scores & Application Tracking</h1>
 
             {!loadingResumes && resumes?.length === 0 ? (
