@@ -1,7 +1,7 @@
 import { usePuterStore } from "~/lib/puter";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
-
+import "remixicon/fonts/remixicon.css";
 export const meta = () => [
   { title: "Resumind | Auth" },
   { name: "description", content: "Log into your account" },
@@ -34,10 +34,12 @@ const Auth = () => {
       <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="relative gradient-border shadow-xl rounded-2xl">
-        <section className="flex flex-col gap-8 bg-neutral-900 border border-neutral-800 text-gray-100 rounded-2xl p-10 w-lg ">
-          <div className="flex flex-col items-center gap-2 text-center">
-            <h1 className="text-2xl  text-yellow-400">ResumeLens</h1>
-            <h2 className="text-gray-300 text-sm">
+        <section className="flex flex-col gap-8 bg-neutral-900 border border-neutral-800 text-gray-100 rounded-2xl p-10 w-xl  ">
+          <div className="flex flex-col items-center  gap-2 text-center">
+            <h1 className="text-2xl  text-yellow-400">
+              Resume <i className="ri-search-line"></i> Lens
+            </h1>
+            <h2 className="authPara text-gray-300 text-sm">
               Access intelligent resume, personalized optimization tips, boost
               your chances of landing interviews.
             </h2>
